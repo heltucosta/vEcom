@@ -25,9 +25,6 @@ SECRET_KEY = '_0sa4z!%i+nh_jw5ox6$usp!f-m@_r&-!)2q9w11i!nrr529j)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -126,4 +123,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     STATIC_DIR, 
 ]
-ALLOWED_HOSTS = ['vecomdemo.herokuapp.com']
+ALLOWED_HOSTS = ['vecomdemo.herokuapp.com', 'localhost', '0.0.0.0:5000']
