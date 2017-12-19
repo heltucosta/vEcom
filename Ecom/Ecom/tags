@@ -1,5 +1,7 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
 ALLOWED_HOSTS	/home/heltucosta/Projects/vEcom/Ecom/Ecom/settings.py	/^ALLOWED_HOSTS = []$/;"	v	language:Python
+application	/home/heltucosta/Projects/vEcom/Ecom/Ecom/wsgi.py	/^application = DjangoWhiteNoise(application)$/;"	v	language:Python
+application	/home/heltucosta/Projects/vEcom/Ecom/Ecom/wsgi.py	/^application = get_wsgi_application()$/;"	v	language:Python
 AUTH_PASSWORD_VALIDATORS	/home/heltucosta/Projects/vEcom/Ecom/Ecom/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v	language:Python
 BASE_DIR	/home/heltucosta/Projects/vEcom/Ecom/Ecom/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v	language:Python
 DATABASES	/home/heltucosta/Projects/vEcom/Ecom/Ecom/settings.py	/^DATABASES = {$/;"	v	language:Python
