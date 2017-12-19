@@ -126,3 +126,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     STATIC_DIR, 
 ]
+ALLOWED_HOSTS = ['vecomdemo.herokuapp.com']
