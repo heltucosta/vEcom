@@ -1,0 +1,1 @@
+web: gunicorn vecom.wsgi --log-file -

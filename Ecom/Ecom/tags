@@ -11,6 +11,7 @@ ROOT_URLCONF	/home/heltucosta/Projects/vEcom/Ecom/Ecom/settings.py	/^ROOT_URLCON
 SECRET_KEY	/home/heltucosta/Projects/vEcom/Ecom/Ecom/settings.py	/^SECRET_KEY = '_0sa4z!%i+nh_jw5ox6$usp!f-m@_r&-!)2q9w11i!nrr529j)'$/;"	v	language:Python
 STATICFILES_DIRS	/home/heltucosta/Projects/vEcom/Ecom/Ecom/settings.py	/^STATICFILES_DIRS = [$/;"	v	language:Python
 STATIC_DIR	/home/heltucosta/Projects/vEcom/Ecom/Ecom/settings.py	/^STATIC_DIR = os.path.join(BASE_DIR, 'static')$/;"	v	language:Python
+STATIC_ROOT	/home/heltucosta/Projects/vEcom/Ecom/Ecom/settings.py	/^STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')$/;"	v	language:Python
 STATIC_URL	/home/heltucosta/Projects/vEcom/Ecom/Ecom/settings.py	/^STATIC_URL = '\/static\/'$/;"	v	language:Python
 TEMPLATES	/home/heltucosta/Projects/vEcom/Ecom/Ecom/settings.py	/^TEMPLATES = [$/;"	v	language:Python
 TEMPLATE_DIR	/home/heltucosta/Projects/vEcom/Ecom/Ecom/settings.py	/^TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')$/;"	v	language:Python
