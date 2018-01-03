@@ -123,4 +123,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     STATIC_DIR, 
 ]
-ALLOWED_HOSTS = ['vecomdemo.herokuapp.com', 'localhost', '0.0.0.0:5000']
+ALLOWED_HOSTS = ['vecomdemo.herokuapp.com', 'localhost', '0.0.0.0:5000', "127.0.0.1"]
