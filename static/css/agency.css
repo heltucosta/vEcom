@@ -133,14 +133,14 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  -o-background-size: auto;
-  background-size: auto; }
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
   header.masthead .intro-text {
     padding-top: 150px;
     padding-bottom: 100px; }
@@ -156,7 +156,9 @@ header.masthead {
       line-height: 50px;
       margin-bottom: 25px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      header.masthead .intro-text .btn{
 
+      }
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 300px;

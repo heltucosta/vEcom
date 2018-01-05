@@ -15,7 +15,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto+slab:400,100,300,700" rel="stylesheet" type="text/css" />
 	
-	<link href="{% static 'css/agency.min.css' %}" rel="stylesheet"/>
+	<link href="{% static 'css/agency.css' %}" rel="stylesheet"/>
     </head>
     <body id="page-top">
 	    <!-- Navigation -->
@@ -52,9 +52,9 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <!-- <div class="intro-lead-in">Welcome To Our Studio!</div>
-	      <div class="intro-heading text-uppercase">It's Nice To Meet You</div>--!>
-	      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Comprar</a>
+	    <div class="invisible intro-lead-in">Welcome To Our Studio!</div>
+	    <div class="invisible intro-heading text-uppercase">It's Nice To Meet You</div>
+	    <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Comprar</a>
         </div>
       </div>
     </header>
@@ -64,34 +64,34 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Services</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">Características Principais</h2>
+            <h3 class="section-subheading text-muted">Desde 2011 presente no mercado, se tornou uma referência por sua capacidade energetica e produção consistente de vapor.</h3>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+              <i class="fa fa-fire fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">E-Commerce</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="service-heading">Pré-aquecimento</h4>
+            <p class="text-muted">2 minutos para estar pronto para utilização</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+              <i class="fa fa-thermometer-3 fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Responsive Design</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="service-heading">Ajuste de temperaturas</h4>
+            <p class="text-muted">Niveis pre-determinados de aquecimento para diferentes tratamentos. 50/185/190/195/200/205/210</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+              <i class="fa fa-battery-3 fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="service-heading">Bateria</h4>
+            <p class="text-muted">Até 2 horas de bateria permitindo a utilização 'on-the-go'</p>
           </div>
         </div>
       </div>
@@ -102,7 +102,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Portfolio</h2>
+            <h2 class="section-heading text-uppercase">Acessórios</h2>
             <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
           </div>
         </div>
@@ -114,10 +114,10 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-	      <img class="img-fluid" src="{% static 'img/portfolio/01-thumbnail.jpg' %}" alt="">
+	      <img class="img-fluid" src="{% static 'img/portfolio/SoloCharger.png' %}" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Threads</h4>
+              <h4>Carregador de tomada</h4>
               <p class="text-muted">Illustration</p>
             </div>
           </div>
@@ -128,10 +128,10 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-	      <img class="img-fluid" src="{% static 'img/portfolio/02-thumbnail.jpg' %}" alt="">
+	      <img class="img-fluid" src="{% static 'img/portfolio/SoloChargingDock.png' %}" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Explore</h4>
+              <h4>Base de carregamento</h4>
               <p class="text-muted">Graphic Design</p>
             </div>
           </div>
@@ -142,10 +142,10 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-	      <img class="img-fluid" src="{% static 'img/portfolio/03-thumbnail.jpg' %}" alt="">
+	      <img class="img-fluid" src="{% static 'img/portfolio/SoloGlassAromaDish.png' %}" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Finish</h4>
+		<h4>Tubo para aromaterapia</h4>
               <p class="text-muted">Identity</p>
             </div>
           </div>
@@ -156,10 +156,10 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-	      <img class="img-fluid" src="{% static 'img/portfolio/04-thumbnail.jpg' %}" alt="">
+	      <img class="img-fluid" src="{% static 'img/portfolio/SoloGlassAromaTube.png' %}" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Lines</h4>
+              <h4>Tubo de vidro (90/110 mm)</h4>
               <p class="text-muted">Branding</p>
             </div>
           </div>
@@ -170,10 +170,10 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-	      <img class="img-fluid" src="{% static 'img/portfolio/05-thumbnail.jpg' %}" alt="">
+	      <img class="img-fluid" src="{% static 'img/portfolio/SoloGlassAromaTubeCurved.png' %}" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Southwest</h4>
+              <h4>Tubo de vidro curvado</h4>
               <p class="text-muted">Website Design</p>
             </div>
           </div>
@@ -184,10 +184,10 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-	      <img class="img-fluid" src="{% static 'img/portfolio/06-thumbnail.jpg' %}" alt="">
+	      <img class="img-fluid" src="{% static 'img/portfolio/StainlessSteelStirringTool.png' %}" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Window</h4>
+              <h4>Ferro inox para limpeza</h4>
               <p class="text-muted">Photography</p>
             </div>
           </div>
@@ -200,7 +200,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">About</h2>
+            <h2 class="section-heading text-uppercase">Características</h2>
             <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
           </div>
         </div>
@@ -367,7 +367,7 @@
       </div>
     </section>
 
-    <!-- Clients -->
+    <!--
     <section class="py-5">
       <div class="container">
         <div class="row">
@@ -394,7 +394,7 @@
         </div>
       </div>
     </section>
-
+    -->
     <!-- Contact -->
     <section id="contact">
       <div class="container">
